@@ -39,5 +39,4 @@ func TestAuthorizeUrl(t *testing.T) {
 	probeKey("state", state)
 	probeKey("client_id", clientId)
 	probeKey("scope", "tasks:read tasks:write")
-
 }
